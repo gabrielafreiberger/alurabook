@@ -22,16 +22,18 @@
     top: 100%;
     width: 60vw;
   }
-  .container__botao:checked ~ .lista-menu {
-    display: block;
+  .container__botao {
+    display: none;
   }
+  
 .lista-menu__item {
   padding: 1em;
   background-color: var(--branco);
 }
 .lista-menu__titulo {
-    color: var(--laranja);
-  }
+  color: var(--laranja);
+  font-weight: 700;
+}
   .lista-menu__link {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
