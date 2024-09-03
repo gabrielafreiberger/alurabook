@@ -22,7 +22,10 @@
     top: 100%;
     width: 60vw;
   }
-
+  .container__botao:checked ~ .lista-menu {
+    display: block;
+  }
+  
   
 .lista-menu__item {
   padding: 1em;
